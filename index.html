@@ -22,7 +22,7 @@
                     <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#home"> <i class="bi bi-house-door"></i> &nbsp; Home</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#"> <i class="bi bi-person-rolodex"></i> &nbsp; Contact us</a>
+                    <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#contact" data-bs-toggle="offcanvas"> <i class="bi bi-person-rolodex"></i> &nbsp; Contact us</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#shop"> <i class="bi bi-cart-fill"></i> &nbsp; Shop</a>
@@ -224,6 +224,25 @@
             </div>
         </div>
       </div>
-  </section>
+  </section>    
+  <div class="offcanvas  offcanvas-end w-25" id="contact"  tabindex="-1">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Login</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <form>
+        <div class="m-2">
+          <label for="email" class="form-label text-dark">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="m-2">
+          <label for="password" class="form-label text-dark">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password">
+        </div>
+        <button type="button" class="btn btn-info m-2">Submit</button>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
