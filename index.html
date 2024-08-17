@@ -28,7 +28,7 @@
                       <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#shop"> <i class="bi bi-cart-fill"></i> &nbsp; Shop</a>
                     </li>      
                     <li class="nav-item">
-                      <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#"> <i class="bi bi-microsoft-teams"></i> &nbsp; @teamidea</a>
+                      <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" data-bs-toggle="modal" data-bs-target="#team"> <i class="bi bi-microsoft-teams"></i> &nbsp; @teamsports</a>
                     </li> 
                     <li class="nav-item">
                       <a class="nav-link text-warning border border-1 border-warning rounded-pill ps-4 pe-4 bg-black m-2" href="#faq"> <i class="bi bi-database"></i> &nbsp; #Faq</a>
@@ -244,5 +244,26 @@
       </form>
     </div>
   </div>
+  <section class="container">
+    <div class="modal" id="team">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="team">Our Team</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body m-2">
+            Welcome To Vinit Sports
+            <label for="text" class="form-control text-dark border-0">Compalin</label>
+            <input type="text" class="w-100 border-1">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
